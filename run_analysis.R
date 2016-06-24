@@ -78,3 +78,5 @@ if (file.exists("../tidy_data_avg.txt")) {
   file.remove("./tidy_data_avg.txt")
 }
 write.table(data_avg,"tidy_data_avg.txt", row.names = FALSE)
+
+print("Your tidy data are ready, the data frame with all lines is in a variable data, run View(data) to see it, the second data frame average by subject and activity is in a variable data_avg, run View(data_avg) to see it")
