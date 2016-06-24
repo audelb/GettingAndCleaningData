@@ -1,4 +1,3 @@
-# GettingAndCleaningData
 ---
 title: "Readme"
 author: "Aude LE BRAS"
