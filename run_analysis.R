@@ -71,10 +71,10 @@ setwd("../")
 if (file.exists("./tidy_data.txt")) {
   file.remove("./tidy_data.txt")
 }
-write.table(data,"tidy_data.txt")
+write.table(data,"tidy_data.txt", row.names = FALSE)
 
 # Export the result frame in text file
 if (file.exists("../tidy_data_avg.txt")) {
   file.remove("./tidy_data_avg.txt")
 }
-write.table(data_avg,"tidy_data_avg.txt")
+write.table(data_avg,"tidy_data_avg.txt", row.names = FALSE)
